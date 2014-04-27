@@ -19,3 +19,13 @@ from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Acti
 
 The R script run_analysis.R expects the data to be in the working directory
 `UCI HAR Dataset`
+
+In the R console in RStudio
+
+```
+``` > source('./run_analysis.R')
+``` > run_analysis()
+```
+
+will save the output in the files 
+`./means.txt` and `./average.txt` (in the working directory)
