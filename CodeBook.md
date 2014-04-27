@@ -1,7 +1,6 @@
 
-### Assignment for Coursera class
-## [Getting and Cleaning Data](https://class.coursera.org/getdata-002)
-
+## CodeBook
+Assignment for Coursera class [Getting and Cleaning Data](https://class.coursera.org/getdata-002)
 
 ---
 
@@ -10,7 +9,6 @@ from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Acti
 
 The R script run_analysis.R expects the data to be in the working directory
 `UCI HAR Dataset`
-
 
 ---
 
