@@ -1,6 +1,5 @@
 
-### Assignment for Coursera class
-## [Getting and Cleaning Data](https://class.coursera.org/getdata-002)
+### Assignment for Coursera class [Getting and Cleaning Data](https://class.coursera.org/getdata-002)
 
 
 ---
