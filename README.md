@@ -17,14 +17,14 @@ from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Acti
 * Labels the data set with activity names,
 * Creates a new data set with the average of each variable for each activity and each subject.
 
-The R script run_analysis.R expects the data to be in the working directory
-`UCI HAR Dataset`
+The R script run_analysis.R expects the data to be in the directory
+`./UCI HAR Dataset` by default.
 
 In the R console in RStudio
 
 ```
-``` > source('./run_analysis.R')
-``` > run_analysis()
+> source('./run_analysis.R')
+> run_analysis()
 ```
 
 will save the output in the files 

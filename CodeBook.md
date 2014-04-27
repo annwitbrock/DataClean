@@ -12,8 +12,8 @@ from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Acti
 
 ---
 
-The R script run_analysis.R expects the downloaded data to be in the working directory
-`UCI HAR Dataset`
+The R script run_analysis.R expects the downloaded data to be in the directory
+`./UCI HAR Dataset` by default.
 
 
 ### [run_analysis.R](https://www.github.com/annwitbrock/DataClean)
