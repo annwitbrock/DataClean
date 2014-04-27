@@ -29,3 +29,8 @@ In the R console in RStudio
 
 will save the output in the files 
 `./means.txt` and `./average.txt` (in the working directory)
+
+
+### CodeBook.md
+
+The [Code Book](https://github.com/annwitbrock/DataClean/blob/master/CodeBook.md#codebook) describes the data and processing.
