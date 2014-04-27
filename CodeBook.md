@@ -4,7 +4,8 @@ Assignment for Coursera class [Getting and Cleaning Data](https://class.coursera
 
 ---
 
-The project is based on the [Samsung Accelerometer Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The project is based on accelerometer data in the
+[Samsung Smartphones Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Download Smartphone Data")
 from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 The R script run_analysis.R expects the data to be in the working directory

@@ -4,7 +4,7 @@
 
 ---
 
-The project is based on the [Samsung Accelerometer Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+The project is based on accelerometer data in the *Human Activity Recognition Using Smartphones Data Set*
 from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
