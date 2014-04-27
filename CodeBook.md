@@ -13,7 +13,7 @@ from [UCI Smartphone Datasets](http://archive.ics.uci.edu/ml/datasets/Human+Acti
 ---
 
 The R script run_analysis.R expects the downloaded data to be in the directory
-`./UCI HAR Dataset` by default.
+`./UCI HAR Dataset/` by default.
 
 
 ### [run_analysis.R](https://www.github.com/annwitbrock/DataClean)
@@ -23,15 +23,31 @@ The R script run_analysis.R expects the downloaded data to be in the directory
 * Creates a new data set with the average of each variable for each activity and each subject.
 
 ---
+ 
+### Dataset Description UCI HAR Dataset
+
+The data is described in the README.txt file accompanying the dataset.
+ 
+---
 
 ### Initial data preparation
  
+Downloaded the dataset. Not using data in `./Inertial Signals/`
+Within the run_analysis.R script, the files are loaded into respective data frames.
+
+Only the columns of "test/X_test.txt" and "train/X_train.txt"
+corresponding to mean() or std() functions are retained.
+That is, whose name matches "mean\\(\\)|std\\(\\)"
+
+To do: attach corresponding column names to the remaining X data.
  
----
- 
-### Dataset Description UCI HAR Dataset
- 
+To do:
+Each of the corresponding pairs of test and train files are merged, so the rows of train data precede the rows of test data.
+The subject and Y (activity) columns are added alongside the columns of the merged X table data.
+
+This creates
 ---
 
 ### Output Dataset tidydata.txt
  
+Not implemented
